@@ -13,8 +13,8 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('input').on('keydown', function(){
-    if ($('#typing').val() === 'G') {
+  $('input').on('keydown', function(e){
+    if (e.which === 'G') {
       alert('');
     }
   });
