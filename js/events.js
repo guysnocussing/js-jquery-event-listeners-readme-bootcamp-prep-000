@@ -14,7 +14,7 @@ function frameIt() {
 
 function pressIt() {
   $('input').on('keydown', function(key){
-    if (key.which === 70) {
+    if (key.which === 71) {
       alert('');
     }
   });
